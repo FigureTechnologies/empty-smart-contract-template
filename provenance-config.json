@@ -1,0 +1,15 @@
+{
+    "contractLabel": "{{contract.name}}",
+    "build": {
+        "target": "develop"
+    },
+    "binding": {
+        "name": "sc",
+        "root": "pb"
+    },
+    "isSingleton": true,
+    "initArgs": {
+        "bind_name": "{{contract.name}}.sc.pb",
+        "contract_name": "{{contract.snake}}"
+    }
+}
